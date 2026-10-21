@@ -1,0 +1,41 @@
+=======================================================
+CASO: CB-001
+Edad: 16
+Cuenta activa: True
+Saldo: 500
+Monto: 100
+Resultado esperado: Compra no permitida: edad
+Resultado obtenido: Compra no permitida: edad
+Estado: PASSED
+=======================================================
+CASO: CB-002
+Edad: 25
+Cuenta activa: False
+Saldo: 500
+Monto: 100
+Resultado esperado: Compra no permitida: cuenta
+Resultado obtenido: Compra no permitida: cuenta
+Estado: PASSED
+=======================================================
+CASO: CB-003
+Edad: 25
+Cuenta activa: True
+Saldo: 500
+Monto: 100
+Resultado esperado: Compra aprobada
+Resultado obtenido: Compra aprobada
+Estado: PASSED
+=======================================================
+CASO: CB-004
+Edad: 25
+Cuenta activa: True
+Saldo: 50
+Monto: 100
+Resultado esperado: Compra rechazada
+Resultado obtenido: Compra rechazada
+Estado: PASSED
+=======================================================
+RESUMEN DE PRUEBAS
+Total ejecutadas: 4
+PASSED: 4
+FAILED: 0
